@@ -8,7 +8,7 @@ before_install:
 
 script:
   - docker run -e CI=true  padmavathi12/docker-react npm run test -- --coverage
-Dockerreact-env.eba-cetpzb2c.us-east-2.elasticbeanstalk.com                                                                                                                     
+
   deploy:
     provider: elasticbeanstalk
     region: "us-east-2"
